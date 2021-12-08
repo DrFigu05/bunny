@@ -1,0 +1,44 @@
+<!--Arvid-->
+<DOCTYPE! html>
+<html>
+    <head>
+        <script type="module" src="./Globe.js"></script>
+        <style>
+            body{
+                background-color: rgb(0, 0, 0);
+            }
+            canvas{
+            margin-top: 35px;
+            }
+
+            .tillbakabild {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            z-index: -1;
+            }
+            .tillbaka{
+            position: absolute;
+            font-size: 6rem;
+            top: 20px;
+            left: 40px;
+            opacity: 0%;  
+            }    
+   body {
+    background-size:cover;
+    background-image: url("images/hub_temp.png");
+    z-index: -5;
+    opacity: 100%;
+   }
+         
+        </style>
+    </head>
+    <body>
+        <div id="globe">
+            <canvas id="canvas" width="800" height="800"></canvas>
+        </div>
+        <a class="tillbaka" href="index.html">te</a>
+        <img class="tillbakabild" src="images/unicorn-easter-tshirt-girl-easter-bunny-bunnicorn-gifts-felix.png" alt="tillbaka">
+    </body>
+</html>

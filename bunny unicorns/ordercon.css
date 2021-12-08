@@ -1,0 +1,57 @@
+.background {
+    position: absolute;
+    z-index: -2;
+    opacity: 100%;
+    width: 99%;
+    margin-top: 16px;
+    height: 93%;
+}
+.background2 {
+  position: absolute;
+  z-index: -3;
+  opacity: 100%;
+  width: 1912px;
+  height: 929px;
+}
+body{
+    background-color: black;
+}
+.bunny{
+    position: absolute;
+    left: 720px;
+    top: 122px;
+    width: 500px;
+    animation: rotation 1.5s infinite linear;}
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .tillbakabild {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    z-index: -1;
+
+
+  }
+
+.tillbaka{
+    position: absolute;
+    font-size: 6rem;
+    top: 20px;
+    left: 40px;
+    opacity: 0%;  
+}
+path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: #ffffff;
+  }  

@@ -1,0 +1,204 @@
+body{
+  background-color: black;
+}
+.allt{
+  margin-left: 782px;
+  padding-top: 230px;
+}
+.big input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+.tiny input{
+  padding: 12px 20px;
+  font-size: 21px;
+  border-radius: 28px;
+  border: 4px solid white;
+  width: 112px;
+}
+form{
+  width: 180px;
+}
+.tiny{
+  width: 180px;
+  display: inline-block;
+}
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    outline: none;
+}
+form input:valid{
+    border: 4px solid #71d300
+}
+form .tiny{
+  width: 300px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 56px;
+    z-index: 3;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 3;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 48px;
+    width: 48px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 3;
+  }
+  
+  input:checked + .slider {
+    background-color: #7deb00;
+  }
+  input:checked + .slider::before {
+    background-color: #ffffff;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(34px);
+    -ms-transform: translateX(34px);
+    transform: translateX(34px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    z-index: +1;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 40px;
+    font-size: 1.25rem;
+    position: absolute;
+    margin: 32px;
+  }
+
+/* button 1 */
+
+.btn-1{
+    color: rgb(255, 255, 255);
+    top: px;
+    left: 758px;
+}
+
+.btn-1::after, .btn-1::before {
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 36px;
+    content: "";
+    position: absolute;
+    width: 328px;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    transition: transform 0.3s ease;
+  }
+
+.btn-1:hover::after {
+    transform: translate(-5px, -5px);
+    transition: #7deb00;
+}
+
+.btn-1:hover::before {
+  
+    transform: translate(5px, 5px);
+    transition: #7deb00;
+}
+
+.background {
+    position: absolute;
+    z-index: -2;
+    opacity: 100%;
+    width: 99%;
+    margin-top: 16px;
+}
+.background2 {
+  position: absolute;
+  z-index: -3;
+  opacity: 100%;
+  width: 1912px;
+  height: 929px;
+}
+.tillbakabild {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  z-index: -1;
+}
+
+.tillbaka{
+  position: absolute;
+  font-size: 6rem;
+  top: 20px;
+  left: 40px;
+  opacity: 0%;  
+  
+}
+hr{
+  width: 340px;
+  position: absolute;
+  
+}
+.are {
+  border: 6px solid white;
+  padding: 9px;
+  padding-left: 82px;
+  border-radius: 28px;
+  margin: 0px;
+  z-index: 2;
+  position: absolute;
+  top: 334px;
+  left: 810px;
+  padding-right: 30px;
+  transition: 00.4s;
+
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(355, 355, 355);
+  font-size: 22px;
+}
+.are:hover{
+  border: #7deb00 solid 6px;
+}

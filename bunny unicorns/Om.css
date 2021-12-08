@@ -1,0 +1,115 @@
+*{
+    overflow-y: hidden;
+    overflow-x: hidden; 
+}
+
+body{
+    background-color: rgb(14, 0, 24);
+}
+
+.background{
+    background-image: url("images/10.png");
+    background-repeat: infinite;
+    background-size: 20%; 
+    position: absolute;
+    top: -100%;
+    left: -10%;
+    width: 150%;
+    height: 300%;
+    opacity: 5%;
+    z-index: -1;
+    animation:spin 150s linear infinite;
+}
+
+
+
+.abus{
+    font-family: 'Poppins';
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    background-color: rgba(55, 0, 87, 0.322);
+    border-radius: 30px;
+    width: 25%;
+    left: 38%;
+    position: absolute;
+    background: radial-gradient(rgba(128, 22, 189, 0.322), rgba(48, 0, 77, 0.322));
+    z-index: 1;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.container {
+    width: 70%;
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    color: white;
+    padding: 70px 70px;
+    border-radius: 30px;
+    background: radial-gradient(rgba(128, 22, 189, 0.322), rgba(48, 0, 77, 0.322));
+    z-index: 1;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.ram{
+    position: absolute;
+    width: 80%;
+    height: 578px;
+    border: 2px solid white;
+    z-index: +1;
+    left: 10.8%;
+    top: 27.5%;
+    opacity: 50%;
+    border-radius: 30px;
+}
+
+
+.ram2{
+    position: absolute;
+    width: 83%;
+    height: 640px;
+    border: 1px solid white;
+    z-index: +1;
+    left: 9.5%;
+    top: 24.5%;
+    opacity: 20%;
+    border-radius: 30px;
+}
+
+
+
+
+.tillbakabild {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    z-index: -1;
+
+
+  }
+
+.tillbaka{
+    position: absolute;
+    font-size: 6rem;
+    top: 20px;
+    left: 40px;
+    opacity: 0%;  
+}
+  
+
+/* DECO */
+
+
+
+/* animation */
+@keyframes spin { 
+    100% { 
+        transform:rotate(360deg); 
+    }
+}
+

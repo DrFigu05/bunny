@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+}
+.background {
+    position: absolute;
+    z-index: -2;
+    opacity: 100%;
+    width: 99%;
+    margin-top: 16px;
+    height: 93%;
+}
+.background2 {
+  position: absolute;
+  z-index: -3;
+  opacity: 100%;
+  width: 1912px;
+  height: 929px;
+}
+.info{
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    border: solid white;
+    border-radius: 9999px 0px 0px 9999px;
+    position: absolute;
+    top: 160px;
+    left: 645px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p{
+    position: absolute;
+    top: 0px;
+    text-align: right;
+    padding: 10px;
+}
+.q{
+    top: 250px;
+    left: 35px;
+}
+.w{
+    top: 194px;
+    left: 28px;
+}
+.a{
+    top: 420px;
+    left: 70px;
+}
+.r{
+    top: 280px;
+    left: 10px;
+}
+.g{
+    top: 224px;
+    left: 20px;
+}
+.y{
+    top: 336px;
+    left: 40px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    z-index: +1;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.25rem;
+    position: absolute;
+    margin: 32px;
+
+}
+
+/* button 1 */
+
+.btn-1{
+    color: white;
+    top: 45%;
+}
+
+.btn-1::after, .btn-1::before {
+    border: 3px solid white;
+    border-radius:0px 9999px 9999px 0px;
+    content: "";
+    position: absolute;
+    width: px;
+    height: 300px;
+    padding: 150px;
+    top: -294px;
+    left: 922px;
+    transition: transform 0.3s ease;
+}
+
+.btn-1:hover::after {
+    transform: translate(-5px, -5px);
+    
+}
+
+.btn-1:hover::before {
+    transform: translate(5px, 5px);
+}
+span{
+    position: absolute;
+    top: 440px;
+    left: 980px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    border: solid 3px white;
+    border-radius: 50px;
+    padding: 10px;
+    z-index: -1;
+}
+.tillbakabild {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    z-index: -1;
+    }
+    .tillbaka{
+    position: absolute;
+    font-size: 6rem;
+    top: 20px;
+    left: 40px;
+    opacity: 0%;  
+    }
+    
